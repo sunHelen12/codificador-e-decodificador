@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Decodificador de Texto</title>
+    <link rel="shortcut icon" href="img/image_menor.png">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="lefItens">
+            <h1 class="titulo">Codificador e Decodificador</h1>
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+            <div>
+           </div>
+           <div>
+           </div>
+           <div class="boxButton">
+            <div>
+                <p class="alertaVetor"><ion-icon name="alert-circle"></ion-icon>Apenas letras
+                    minúsculas e sem acento.</p>
+                <button class="buttonCriptografar"  type="submit" onclick="criptografar()">CRIPTOGRAFAR</button>
+                <button class="buttonDescriptografar" type="submit" onclick="descriptografar()">DESCRIPTOGRAFAR</button>                
+            </div>
+           </div>
+        </section>
+        <div>
+            <div id="output">
+                <div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://github.com/sunHelen12"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/helen-santos-dev/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Helen Santos</h3>
+    </footer>
+        
+    <script src="./js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

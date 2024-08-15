@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Luckiest+Guy&display=swap');
+
+:root{
+    --corFundo:#0b3b43;
+    --corFonte:#23cb94;
+    --corFonte2: #FFFFFF;
+    --hover: #137765;
+}
+
+body {
+    background-color:var(--corFundo);
+    background-image: url('./img/circuit-7955446_1280.png');
+    color: var(--corFonte);
+    font-family: "Londrina Solid", sans-serif; 
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 40px auto;
+}
+
+
+.leftItens {
+    display: grid;
+    align-content: space-between;
+}
+
+
+#input-texto{
+    width: 400px;
+    height: 150px;
+    margin-left: 10px;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: x-large;
+    text-transform: lowercase;
+    background: transparent;
+    word-break: break-word;
+    overflow: hidden;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    color: var(--corFonte2);
+}
+
+
+
+.title {        
+    position: relative;
+    bottom: 40px;
+    right: 84px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#output {
+    display: grid;
+    align-content: center;
+    background-color: rgba(24, 61, 49, 0.35);
+    border: 1px solid var(--corFonte);
+    font-family: "Londrina Solid", sans-serif;
+    border-radius: 15px;
+    width: 410px;
+    height: 500px;
+    text-align: center;
+    font-family: "Londrina Solid", sans-serif;    
+    backdrop-filter: blur(6px);
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+
+.alertVetor{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+.boxButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 150px;
+    padding:4px;
+    gap: 8;
+}
+
+.buttonCriptografar,
+.buttonDescriptografar {
+    width: 328px;
+    height: 67px;
+    border: 1px solid var(--corFonte);
+    border-radius: 24px;
+    background-color: var(--corFundo);
+    font-family: "Londrina Solid", sans-serif;  
+    color: var(--corFonte);
+    font-size: 16px;
+    font-weight: 400;
+   }
+
+.buttonCriptografar:hover,
+.buttonDescriptografar:hover{
+    background-color: var(--hover);
+}
+
+.btn-copiar{
+    margin-top: 150px;
+    border: 2px solid var(--corFonte);
+    background: transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--corFonte);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5%;
+    margin-left:30%;
+    cursor: pointer;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    font-size: 1.5rem;
+    color: var(--corFonte2);
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--corFonte2);
+}
+     
