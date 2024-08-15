@@ -14,10 +14,10 @@ A proposta deste desafio é que um usuário digite uma palavra  e as seguintes l
 
 O processo de Decodificação também é realizado onde o inverso também é feito.
 
-. A letra "enter" é convertida para "e"
-. A letra "imes" é convertida para "i"
-. A letra "ai" é convertida para "a"
-. A letra "ober" é convertida para "o"
+. A letra "enter" é convertida para "e"  
+. A letra "imes" é convertida para "i"  
+. A letra "ai" é convertida para "a"  
+. A letra "ober" é convertida para "o"  
 . A letra "ufat" é convertida para "u"
 
 ![f2f450bb3aabb03be774515e907786f8.png]
