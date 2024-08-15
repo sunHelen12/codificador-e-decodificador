@@ -1,6 +1,6 @@
 # codificador-e-decodificador
 
-Este é o Codificador e Decodificador de texto, foi realizado para cumprir um desafio do programa da ONE ORACLE NEXT EDUCATION em parceria com a ALURA.
+Este é um Codificador e Decodificador de texto, foi realizado para cumprir um desafio do programa da ONE ORACLE NEXT EDUCATION em parceria com a ALURA.
 
 A proposta deste desafio é que um usuário digite uma palavra  e as seguintes letras sejam substituídas:
 
