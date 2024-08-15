@@ -10,7 +10,7 @@ A proposta deste desafio é que um usuário digite uma palavra  e as seguintes l
 . A letra "o" é convertida para "ober"
 . A letra "u" é convertida para "ufat"
 
-![92708aa688cdb77d75bae5a96822a408.png](:/e8bcbfae38584e4593a8b1f602d3d03c)
+![92708aa688cdb77d75bae5a96822a408.png]
 
 O processo de Decodificação também é realizado onde o inverso também é feito.
 
@@ -20,7 +20,7 @@ O processo de Decodificação também é realizado onde o inverso também é fei
 . A letra "ober" é convertida para "o"
 . A letra "ufat" é convertida para "u"
 
-![f2f450bb3aabb03be774515e907786f8.png](:/00a656b0da6548fa99406ee7709c70ab)
+![f2f450bb3aabb03be774515e907786f8.png]
 
 ## Tecnologias utilizadas:
 
