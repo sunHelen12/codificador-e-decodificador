@@ -1,0 +1,1 @@
+# codificador-e-decodificador
