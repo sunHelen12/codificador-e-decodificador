@@ -22,7 +22,7 @@ function descriptografar(){
     
     var texto = textInput.value;
     if(texto == ''){
-        alert("Digite alguma mensagem para ser descriptografado.");
+        alert("Digite alguma mensagem para ser descriptografada.");
     } else{
     var resultDescripto = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
   
